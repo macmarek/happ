@@ -1,0 +1,1 @@
+docker run --name ha_postgres -p 5455:5432 -e POSTGRES_USER=ha_test -e POSTGRES_PASSWORD=postgresPW -e POSTGRES_DB=ha_dev -d postgres
